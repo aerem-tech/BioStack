@@ -12,12 +12,12 @@ function calculate() {
 
 function macrocalculate() {
 	a1 = document.getElementById('num2').value;
-	a2 = document.getElementById("ammonium").value = (Math.round(a1 * 0.024));
-	a3 = document.getElementById("sodium").value = (Math.round(a1 * 6));
-	a4 = document.getElementById("mg").value = (Math.round(a1 * 0.3));
-	a5 = document.getElementById("ca").value = (Math.round(a1 * 0.144));
-	a6 = document.getElementById("citric").value = (Math.round(a1 * 0.024));
-	a7 = document.getElementById("k2").value = (Math.round(a1 * 0.16));
-	a8 = document.getElementById("na").value = (Math.round(a1 * 0.08));
-	a9 = document.getElementById("edta").value = (Math.round(a1 * 0.024));
+	a2 = document.getElementById("ammonium").value = (Math.round((a1 * 0.024)*100)/100.0);
+	a3 = document.getElementById("sodium").value = (Math.round((a1 * 6)*100)/100.0);
+	a4 = document.getElementById("mg").value = (Math.round((a1 * 0.3)*100)/100.0);
+	a5 = document.getElementById("ca").value = (Math.round((a1 * 0.144)*100)/100.0);
+	a6 = document.getElementById("citric").value = (Math.round((a1 * 0.024)*100)/100.0);
+	a7 = document.getElementById("k2").value = (Math.round((a1 * 0.16)*100)/100.0);
+	a8 = document.getElementById("na").value = (Math.round((a1 * 0.08)*100)/100.0);
+	a9 = document.getElementById("edta").value = (Math.round((a1 * 0.024)*100)/100.0);
 }
